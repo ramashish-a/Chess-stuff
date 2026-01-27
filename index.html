@@ -96,22 +96,21 @@
   <section id="practice">
     <h2>Practice Chess Moves</h2>
     <div id="board"></div>
+        <!-- Chessboard.js and Chess.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.13.4/chess.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/js/chessboard.min.js"></script>
+    <script>
+      var board = Chessboard('board', {
+        draggable: true,
+        position: 'start',
+        onDrop: function(source, target, piece, newPos, oldPos, orientation) {
+          console.log(piece + ' moved from ' + source + ' to ' + target);
+          return true; // allows move
+        }
+      });
+    </script>
   </section>
 </main>
-
-<!-- Chessboard.js and Chess.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.13.4/chess.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/js/chessboard.min.js"></script>
-<script>
-  var board = Chessboard('board', {
-    draggable: true,
-    position: 'start',
-    onDrop: function(source, target, piece, newPos, oldPos, orientation) {
-      console.log(piece + ' moved from ' + source + ' to ' + target);
-      return true; // allows move
-    }
-  });
-</script>
 
 </body>
 </html>
