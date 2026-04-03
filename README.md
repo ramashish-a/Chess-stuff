@@ -120,7 +120,7 @@ My repo about chess related things.
   <section id="I hit 2k rapid!">
     <h2>I hit 2k rapid!</h2>
     <h3> GUYS, I FINALLY DIT IT!!!! On 3/12/26, I hit 2000 rapid FOR THE 1ST TIME EVER!!!! The dream of a lifetime has been accomplished!!!! Hopefully, I can stay 2000+ rapid forever, and maybe I'll even reach 2200+ someday! Let me know if you think I can be 2200 rapid!</h3>
-    <p>This just comes to show that anythign is possible with good faith, hard work, dedication, and the patience to wait a LONG TIME.</p>
+    <p>This just comes to show that anything is possible with good faith, hard work, dedication, and the patience to wait a LONG TIME.</p>
     <p>If I can reach 2000 rapid, so can you!</p>
     <p>Now what are y'all waiting for? Go get that 2000 rapid!!!!</p>
   </section>
